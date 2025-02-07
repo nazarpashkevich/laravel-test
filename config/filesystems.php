@@ -60,6 +60,12 @@ return [
             'report' => false,
         ],
 
+        // custom disk for files
+        'files' => [
+            'driver' => 'local',
+            'root' => storage_path('app/custom_files'),
+            'visibility' => 'public',
+        ],
     ],
 
     /*
